@@ -83,7 +83,7 @@
       </div>
       <div class="main-header">
         <div class="container"><div class="row align-items-center">
-        <div class="logo col-sm-auto"><img src="../../images/logo.jpg" alt="" width="80" height="80">  </div>
+        <div class="logo col-sm-auto mt-4 mb-4"><img src="../../images/logo.jpg" alt="" width="80" height="80">  </div>
         <h3 class = "col-sm-auto ">Trung tâm y tế quận Lê Chân</h3>
         <div class="col-sm-auto ">
         <a href="tel:1900636227" class="btn btn-primary" role="button" data-bs-toggle="button">
@@ -183,19 +183,25 @@
     </header>
 <div class="content">
 <div class="container">
-
-<form method="post">
-  <div class="form-group">
+<form method="post" class="form-dangki">
+  <div class="form-group mb-2">
     <label for="exampleInputEmail1">Họ tên</label>
     <input  class="form-control" name = "hoten"  aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group mb-2">
     <label for="exampleInputEmail1">Người giám hộ</label>
     <input  class="form-control" name = "giamho"  aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group mb-2">
     <label for="exampleInputEmail1">Mối quan hệ</label>
-    <input  class="form-control" name = "moiqh"  aria-describedby="emailHelp" >
+    <input  class="form-control " name = "moiqh"  aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group mb-2">
     <label for="startDate">Ngày sinh</label>
     <input id="startDate" class="form-control" type="date" name="ngaysinh" />
     <span id="startDateSelected"></span>
-    <div class="input-group mb-3">
+  </div>
+    <div class="input-group mb-3 mt-3">
         <div class="input-group-prepend">
             <label class="input-group-text" for="inputGroupSelect01">Vắc xin</label>
         </div>
@@ -218,7 +224,7 @@
                 <?php } ?>
         </select>
     </div>
-    <div class="input-group mb-3">
+    <div class="input-group mb-3 ">
       <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Giới tính</label>
       </div>
@@ -228,13 +234,14 @@
       </select>
       </div>
     
-    <label for="startDate">Ngày đăng kí tiêm</label>
+    <label for="startDate">Ngày đăng kí</label>
     <input id="startDate" class="form-control" type="date" name="ngaydkitiem" />
     <span id="startDateSelected"></span>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
+    <button type="submit" class="btn btn-primary mt-4 ">Đăng kí</button>
+  
   
 </form>
+
 </div>
 </div>
 <footer class="text-center text-lg-start bg-light text-muted">

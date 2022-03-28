@@ -4,7 +4,7 @@
     margin: 0;
         
     border: none;
-
+    box-sizing: content-box;
     }
     .input-group-append {
         cursor: pointer;
